@@ -1,4 +1,4 @@
-package model;
+package loanmanagementsystem.model;
 
 import java.time.LocalDate;
 public class LoanApplication {

@@ -1,7 +1,7 @@
-package service;
+package loanmanagementsystem.service;
 
-import model.LoanApplication;
-import model.LoanRange;
+import loanmanagementsystem.model.LoanApplication;
+import loanmanagementsystem.model.LoanRange;
 
 import java.time.LocalDate;
 import java.util.HashMap;

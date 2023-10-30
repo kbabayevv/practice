@@ -1,4 +1,4 @@
-package model;
+package loanmanagementsystem.model;
 
 public class LoanRange  {
     private double min;
