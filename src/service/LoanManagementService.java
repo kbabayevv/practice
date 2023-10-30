@@ -1,9 +1,14 @@
+package service;
+
+import model.LoanApplication;
+import model.LoanRange;
+
 import java.time.LocalDate;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class LoanManagementSystem {
+public class LoanManagementService {
     public static void main(String[] args) {
         Map<String, LoanApplication> loanApplications = new HashMap<>();
 
@@ -56,37 +61,7 @@ public class LoanManagementSystem {
     }
 }
 
-class LoanRange {
-    private double min;
-    private double max;
 
-    public LoanRange(double min, double max) {
-        this.min = min;
-        this.max = max;
-    }
 
-    public double getMin() {
-        return min;
-    }
 
-    public double getMax() {
-        return max;
-    }
-}
-
-class LoanApplication {
-    private String fullName;
-    private LocalDate birthDate;
-    private double loanAmount;
-    private int loanMonths;
-    private String bank;
-
-    public LoanApplication(String fullName, LocalDate birthDate, double loanAmount, int loanMonths, String bank) {
-        this.fullName = fullName;
-        this.birthDate = birthDate;
-        this.loanAmount = loanAmount;
-        this.loanMonths = loanMonths;
-        this.bank = bank;
-    }
-}
 
